@@ -2,7 +2,7 @@ package com.calcge.entity;
 
 import com.calcge.constant.ValueType;
 
-public class Value {
+public abstract class Value {
 	private ValueType valueType;
 	
 	private Double value;
